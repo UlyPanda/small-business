@@ -24,7 +24,7 @@ const Login = (props) => {
     document.cookie = "loggedIn=true;max-age=60*1000";
     props.logIn();
     props.setUser(user);
-    history.push("/listings");
+    history.push("/BusinessList");
   }
   
   return (
